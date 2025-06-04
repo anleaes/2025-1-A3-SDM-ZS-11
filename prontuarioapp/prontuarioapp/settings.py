@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'pessoa.apps.PessoaConfig',
     'paciente.apps.PacienteConfig',
+    'profissionalSaude.apps.ProfissionalsaudeConfig',
 ]
 
 MIDDLEWARE = [
