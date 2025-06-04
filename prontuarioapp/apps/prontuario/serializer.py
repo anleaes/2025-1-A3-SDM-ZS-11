@@ -1,9 +1,9 @@
-from .models import Pessoa
+from .models import Prontuario
 from rest_framework import serializers
 
-class PessoaSerializer(serializers.ModelSerializer):
+class ProntuarioSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Pessoa
+        model = Prontuario
         fields = '__all__'
         
         # Para chamar todos os atributos:
