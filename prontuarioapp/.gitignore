@@ -5,3 +5,5 @@ prontuarioapp/__pycache__/*
 /apps/paciente/migrations/*
 /apps/profissionalSaude/__pycache__/*
 /apps/profissionalSaude/migrations/*
+/apps/exame/__pycache__/*
+/apps/exame/migrations/*
