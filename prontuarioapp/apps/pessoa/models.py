@@ -1,5 +1,7 @@
 from django.db import models
 
+
+
 class Pessoa(models.Model):
     cpf = models.CharField('CPF', max_length=11, unique=True)
     nome = models.CharField('Nome', max_length=50)
